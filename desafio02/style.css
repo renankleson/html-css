@@ -1,0 +1,55 @@
+#imagem_transito{
+    height: 450px;
+    width: 600px;
+}
+body{
+    background-color: #ffffff;
+    position: relative;
+    text-align: center;
+}
+h1{
+    color: #eef10e;
+}
+h1#principal{
+   text-align: center;
+}
+h2{
+    color: #eef10e;
+}
+p{
+    color: #000000;
+}
+
+#button{
+    display: inline-block;
+    background-color: rgb(30, 255, 0);
+    text-align:center;
+    border: 8px solid black;
+    width: 100px;
+    height: 100px;
+}
+#button:hover{
+    background-color: rgb(239, 255, 9);
+}
+#Instagram{
+    display: inline-block;
+    background-color: rgb(255, 0, 0);
+    text-align:center;
+    border: 8px solid black;
+    width: 100px;
+    height: 100px;
+    }
+    #Instagram:hover{
+        background-color: rgb(30, 255, 0);
+    }
+    #Site_Detran{
+        display: inline-block;
+        background-color: rgb(239, 255, 9);
+        text-align:center;
+        border: 8px solid black;
+        width: 100px;
+        height: 100px;
+        }
+        #Site_Detran:hover{
+            background-color: rgb(255, 0, 0);
+        }
