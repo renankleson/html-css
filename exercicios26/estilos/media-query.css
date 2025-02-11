@@ -1,0 +1,35 @@
+@charset "UTF-8";
+/* todas as demais midias */
+
+
+
+@media print {
+    
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px){ /*
+TABLET */ body {
+background-image: url(../imagens/back-tablet.jpg);
+}
+
+img#phone { display: none; } 
+img#tablet {display: block; }
+img#print { display: none; } 
+img#pc { display: none; }
+img#tv { display: none; }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) { /*
+DESKTOP */
+     body{
+        background-color: url(../imagens/icon-pc.png);
+     }
+     img#phone { display: none; } 
+     img#tablet {display: none; }
+     img#print { display: none; } 
+     img#pc { display: block; }
+     img#tv { display: none; }
+}
+
+@media screen and (min-width: 1200px) {/* GRANDES TELAS */
+    }
